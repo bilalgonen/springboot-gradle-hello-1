@@ -47,7 +47,9 @@ Spring Boot, Gradle Hello World multi-module
 
 - [Gradle Tutorial - Crash Course, Marco Codes](https://www.youtube.com/watch?v=gKPMKRnnbXU)
 - [Full Stack Development with Java Spring Boot, React, and MongoDB – Full Course](https://www.youtube.com/watch?v=5PdEmeopJVQ)
+- [Gradle Build Tool Tutorial For Beginners ashokit](https://www.youtube.com/watch?v=1teuyQ6y_a8&)
 
 ## Gradle related links
 
-<https://mvnrepository.com>
+- <https://mvnrepository.com>
+- [Spring Boot Gradle Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/current/gradle-plugin/reference/htmlsingle/)
