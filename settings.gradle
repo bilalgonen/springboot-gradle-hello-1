@@ -1,4 +1,4 @@
-rootProject.name = 'my-multi-module-app'
+rootProject.name = 'springboot-gradle-hello-1'
 
 include 'my-backend'
 include 'my-webapp'
