@@ -43,6 +43,29 @@ Spring Boot, Gradle Hello World multi-module
 
 - java -jar my-webapp/build/libs/my-webapp-0.0.1-SNAPSHOT.jar
 
+## Version conflict
+
+A version conflict occurs when two components:
+
+- Depend on the same module, let’s say com.google.guava:guava , But on different versions, let’s say 20.0 and 25.1-android
+  - Our project itself depends on com.google.guava:guava:20.0
+  - Our project also depends on com.google.inject:guice:4.2.2 which itself depends on
+    com.google.guava:guava:25.1-android
+
+### Dependency Constraint Sample
+
+    dependencies {
+        implementation 'org.apache.httpcomponents:httpclient'
+        constraints {
+            implementation('org.apache.httpcomponents:httpclient:4.5.3') {
+                because 'previous versions have a bug impacting this application'
+            }
+            implementation('commons-codec:commons-codec:1.11') {
+                because 'version 1.9 pulled from httpclient has bugs affecting this application'
+            }
+        }
+    }
+
 ## Videos
 
 - [Gradle Tutorial - Crash Course, Marco Codes](https://www.youtube.com/watch?v=gKPMKRnnbXU)
