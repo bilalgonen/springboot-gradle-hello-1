@@ -53,3 +53,4 @@ Spring Boot, Gradle Hello World multi-module
 
 - <https://mvnrepository.com>
 - [Spring Boot Gradle Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/current/gradle-plugin/reference/htmlsingle/)
+- <https://github.com/gradle/gradle-build-scan-quickstart>
