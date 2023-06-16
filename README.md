@@ -78,3 +78,7 @@ A version conflict occurs when two components:
 - [Spring Boot Gradle Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/current/gradle-plugin/reference/htmlsingle/)
 - <https://github.com/gradle/gradle-build-scan-quickstart>
 - <https://docs.gradle.org/current/userguide/dependency_constraints.html>
+
+## Spring boot links
+
+- <https://spring.academy/courses>
